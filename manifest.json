@@ -15,11 +15,15 @@
     "default_popup": "popup.html",
     "default_title": "Untrap Insta",
     "default_icon": {
-      "48": "icons/untrap-insta-icon.svg"
+      "48": "icons/untrap-insta-icon-with-background-48px.png"
     }
   },
   "icons": {
-    "48": "icons/untrap-insta-icon.svg",
-    "128": "icons/untrap-insta-icon.svg"
+    "48": "icons/untrap-insta-icon-with-background-48px.png",
+    "128": "icons/untrap-insta-icon-with-background-128px.png",
+    "512": "icons/untrap-insta-icon-with-background-512px.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
   }
 }

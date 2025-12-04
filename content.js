@@ -1,4 +1,3 @@
-// 1. Global variables to cache settings (prevents freezing)
 let state = {
     hideReels: true,
     hideExplore: true
@@ -14,7 +13,6 @@ const selectorsExplore = [
     'svg[aria-label="Explore"]'
 ]
 
-// 2. The Apply function now runs instantly using cached state
 function apply() {
     if (state.hideReels) {
         hide(selectorsReels)
@@ -34,7 +32,6 @@ function hide(selectors) {
         const elements = document.querySelectorAll(s)
         elements.forEach(el => {
             const target = el.closest('a') || el
-            // Only update if actually visible to save performance
             if (target.style.display !== 'none') {
                 target.style.display = 'none'
             }
@@ -54,7 +51,6 @@ function show(selectors) {
     })
 }
 
-// 3. Helper to update settings from storage
 function updateSettings() {
     chrome.storage.sync.get(['hideReels', 'hideExplore'], values => {
         state.hideReels = values.hideReels ?? true
@@ -63,19 +59,14 @@ function updateSettings() {
     })
 }
 
-// --- INITIALIZATION ---
-
-// Load settings once at start
 updateSettings()
 
-// Update settings instantly when you toggle the switch
 chrome.storage.onChanged.addListener((changes, namespace) => {
     if (namespace === 'sync') {
         updateSettings()
     }
 })
 
-// Observe DOM changes, but use the fast cached 'state'
 const observer = new MutationObserver(() => {
     apply()
 })
