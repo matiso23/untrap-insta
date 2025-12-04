@@ -4,6 +4,13 @@
   "version": "1.0.0",
   "description": "Toggle visibility of Instagram Reels and Explore buttons.",
   "permissions": ["storage"],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "untrap-insta@matiso23.extension"
+    }
+  },
+
   "content_scripts": [
     {
       "matches": ["https://www.instagram.com/*"],
@@ -11,18 +18,21 @@
       "run_at": "document_idle"
     }
   ],
+
   "action": {
     "default_popup": "popup.html",
     "default_title": "Untrap Insta",
     "default_icon": {
-      "48": "icons/untrap-insta-icon-with-background-48px.png"
+      "48": "assets/icons/untrap-insta-icon-with-background-48px.png"
     }
   },
+
   "icons": {
-    "48": "icons/untrap-insta-icon-with-background-48px.png",
-    "128": "icons/untrap-insta-icon-with-background-128px.png",
-    "512": "icons/untrap-insta-icon-with-background-512px.png"
+    "48": "assets/icons/untrap-insta-icon-with-background-48px.png",
+    "128": "assets/icons/untrap-insta-icon-with-background-128px.png",
+    "512": "assets/icons/untrap-insta-icon-with-background-512px.png"
   },
+
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
   }

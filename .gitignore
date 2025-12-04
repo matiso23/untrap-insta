@@ -1,2 +1,7 @@
 # Ignore all files inside the .idea directory
 .idea/**
+
+# Ignore all files inside node_modules
+node_modules/**
+
+package-lock.json

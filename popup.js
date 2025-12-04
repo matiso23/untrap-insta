@@ -1,15 +1,19 @@
-const reels = document.getElementById('toggleReels')
-const explore = document.getElementById('toggleExplore')
+const reels = document.getElementById('toggleReels');
+const explore = document.getElementById('toggleExplore');
 
-chrome.storage.sync.get(['hideReels', 'hideExplore'], values => {
-    reels.checked = values.hideReels ?? true
-    explore.checked = values.hideExplore ?? true
-})
+function updateUI(values) {
+    reels.checked = values.hideReels ?? true;
+    explore.checked = values.hideExplore ?? true;
+}
+
+browser.storage.sync.get(['hideReels', 'hideExplore'])
+    .then(updateUI)
+    .catch(error => console.error("Error loading settings:", error));
 
 reels.addEventListener('change', () => {
-    chrome.storage.sync.set({ hideReels: reels.checked })
-})
+    browser.storage.sync.set({ hideReels: reels.checked });
+});
 
 explore.addEventListener('change', () => {
-    chrome.storage.sync.set({ hideExplore: explore.checked })
-})
+    browser.storage.sync.set({ hideExplore: explore.checked });
+});

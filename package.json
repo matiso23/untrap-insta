@@ -1,0 +1,9 @@
+{
+  "name": "untrap-insta",
+  "version": "1.0.0",
+  "description": "Toggle visibility of Instagram Reels and Explore buttons.",
+  "license": "Creative Commons Attribution‑NonCommercial‑ShareAlike 4.0 International (CC BY‑NC‑SA 4.0)",
+  "dependencies": {
+    "webextension-polyfill": "^0.12.0"
+  }
+}
