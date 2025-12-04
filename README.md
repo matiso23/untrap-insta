@@ -24,9 +24,9 @@ Untrap Insta is available on the [Google Chrome Store](https://chrome.google.com
 1. Click the **InstaUntrap** icon to open the settings popup.
 2. Use the switches to hide the Reels and Explore page on Instagram.
 
-|                                                                              The extension popup with “Hide Reels” and “Hide Explore” toggles                                                                              |                                                                          Instagram’s bottom navigation bar after the selected sections have been hidden                                                                          |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|                          ![Settings popup – two switches](/assets/screenshots/untrap-insta-settings.png)                        |                         ![Navbar with hidden items](/assets/screenshots/untrap-insta-result.png)                       |
+| ![Settings popup – two switches](/assets/screenshots/untrap-insta-settings.png) | ![Navbar with hidden items](/assets/screenshots/untrap-insta-result.png) |
+|:------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
+| The extension popup with “Hide Reels” and “Hide Explore” toggles               | Instagram’s bottom navigation bar after the selected sections have been hidden |
 
 ## Privacy
 
