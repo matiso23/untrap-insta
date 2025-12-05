@@ -30,10 +30,10 @@ Untrap Insta is available on the [Google Chrome Store](https://chrome.google.com
 
 ## Privacy
 
-The extension does **not** collect, transmit, or store any personal data. All settings are kept locally (or synced via the browser’s built‑in sync service) and are never sent to external servers.
+The extension does **not** collect, transmit, or store any personal data. See the [Privacy Policy](./PRIVACY.md) for the full legal text.
 
 ## License
 
 This project is released under the **Creative Commons Attribution‑NonCommercial‑ShareAlike 4.0 International (CC BY‑NC‑SA 4.0)** license.
 
-You may use, modify, and redistribute the code **only for non‑commercial purposes**, provided you give appropriate credit and distribute any derivatives under the same license. See the `LICENSE` file for the full legal text.
+You may use, modify, and redistribute the code **only for non‑commercial purposes**, provided you give appropriate credit and distribute any derivatives under the same license. See the [License](./LICENSE) file for the full legal text.
