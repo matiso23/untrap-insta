@@ -4,4 +4,6 @@
 # Ignore all files inside node_modules
 node_modules/**
 
+webstores/**
+
 package-lock.json
