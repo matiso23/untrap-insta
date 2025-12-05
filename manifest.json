@@ -7,7 +7,11 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "untrap-insta@matiso23.extension"
+      "id": "untrap-insta@matiso23.extension",
+      "data_collection_permissions": {
+        "technical_and_interaction": false,
+        "personal_data": false
+      }
     }
   },
 
