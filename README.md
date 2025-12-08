@@ -5,19 +5,21 @@
 ---
 
 <p align="center">
-  <a rel="noreferrer noopener" href=""><img height="30px" alt="Chrome Web Store" src="https://img.shields.io/badge/Chrome-141e24.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"></a>  
-  <a rel="noreferrer noopener" href=""><img height="30px" alt="Firefox Add-ons" src="https://img.shields.io/badge/Firefox-141e24.svg?&style=for-the-badge&logo=firefox-browser&logoColor=white"></a>
+  <a rel="noreferrer noopener" href="https://chromewebstore.google.com/detail/fbkdkpeadbfdkokobbjinbnlimpdhleo"><img height="30px" alt="Chrome Web Store" src="https://img.shields.io/badge/Chrome-141e24.svg?&style=for-the-badge&logo=google-chrome&logoColor=white"></a>  
+  <a rel="noreferrer noopener" href="https://addons.mozilla.org/de/firefox/addon/untrap-insta"><img height="30px" alt="Firefox Add-ons" src="https://img.shields.io/badge/Firefox-141e24.svg?&style=for-the-badge&logo=firefox-browser&logoColor=white"></a>
 </p>
 
 # Untrap Insta
 
-A lightweight Browser extension that instantly hides Instagram’s Reels and Explore sections for a cleaner, distraction‑free feed.
+Untrap Insta is a lightweight, open-source browser extension that instantly hides Instagram’s Reels and Explore sections for a cleaner, distraction-free experience.
+Each feature can be toggled individually in the settings, and the extension works seamlessly on both Chrome and Firefox.
 
-You can toggle each switch separately in the settings, and the extension works on both Chrome and Firefox.
+Untrap Insta is free, privacy-friendly, and does not track you or your data.
+Instagram is engineered to maximize engagement, often at the cost of our time and attention. By using Untrap Insta alongside removing the mobile app and following only the accounts that truly matter, you can build a healthier relationship with social media.
 
 ## Installation
 
-Untrap Insta is available on the [Google Chrome Store](https://chrome.google.com/webstore/detail/) and [Firefox Web Store](https://addons.mozilla.org/en-US/firefox/addon/). Visit the store page and click on the "Add" button to install the extension directly to your browser.
+Untrap Insta is available on the [Google Chrome Store](https://chromewebstore.google.com/detail/fbkdkpeadbfdkokobbjinbnlimpdhleo) and [Firefox Web Store](https://addons.mozilla.org/de/firefox/addon/untrap-insta). Visit the store page and click on the "Add" button to install the extension directly to your browser.
 
 
 ## Usage
